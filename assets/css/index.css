@@ -3,6 +3,11 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
 
+:root {
+  --primary-color: #fff;
+  --secundary-color: #0a0a0a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +16,79 @@ font-family: 'Open Sans', sans-serif;
 
 html {
   scroll-behavior: smooth;
-  font-size: 62,5%;
+  font-size: 62.5%;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 5.5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.main-bg {  
+  background-image: url('/assets/img/background.svg');
+  background-position: center center;
+  color: var(--primary-color);
+}
+
+.white-bg {
+  background-color: var(--primary-color);
+}
+
+.main-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.respiro {
+  margin-top: 70px;
 }
