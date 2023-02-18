@@ -6,6 +6,7 @@ font-family: 'Open Sans', sans-serif;
 :root {
   --primary-color: #fff;
   --secundary-color: #0a0a0a;
+  --gap: 30px;
 }
 
 * {
@@ -71,6 +72,7 @@ h6 {
 .main-content {
   max-width: 1400px;
   margin: 0 auto;
+  padding: var(--gap)
 }
 
 .section {
