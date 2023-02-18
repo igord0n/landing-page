@@ -5,7 +5,7 @@ font-family: 'Open Sans', sans-serif;
 
 :root {
   --primary-color: #fff;
-  --secundary-color: #0a0a0a;
+  --secundary-color: #550055;
   --gap: 30px;
 }
 
@@ -89,8 +89,36 @@ h6 {
   top: 0px;
   left: 0px;
   right: 0px;
+  border-bottom: 1px solid #550055;
+  color: #550055;
 }
 
 .respiro {
   margin-top: 70px;
+}
+
+.logo {
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-menu > a {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu> a:nth-last-child(1) {
+  background-color: #550055bd;
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+}
+
+.nav-menu > a:hover {
+  background-color: #550055;
+  color: var(--primary-color);
+  border-radius: 1rem;
 }
