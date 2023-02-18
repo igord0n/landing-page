@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing page</title>
-  <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/elements.css">
+  <link rel="stylesheet" href="./assets/css/classes.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -18,10 +20,10 @@
   <section class="white-bg p-fixed">
     <div class="main-content d-flex">
       <div>
-        <h2 class="logo">LOGO</h2>
+        <h2 class="logo"><a href="#logo">LOGO</a></h2>
       </div>
       <nav class="nav-menu">
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#">Service</a>
         <a href="#">Portifolio</a>
         <a href="#">About</a>
@@ -29,12 +31,23 @@
       </nav>
     </div>
   </section>
-  <section class="main-bg section">
-    <div class="main-content">
-      <h1>Titulo</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla dolor repellendus ab expedita velit,
-        aliquam ea enim! Vero debitis architecto dicta explicabo exercitationem. Beatae rerum culpa velit facere iure.
-      </p>
+  <div id="logo" class="respiro"></div>
+  <section class="main-bg main-content section">
+    <div class="d-grid">
+      <div id="intro">
+        <h2>Welcome...</h2>
+        <p>This is my first Landing Page based in those three technologies used in the Web Development.</p>
+      </div>
+      <div>
+        <img src="./assets/img/web-dev.svg" alt="Web developer languagues" class="web-dev-img">
+      </div>
+    </div>
+  </section>
+
+  <section class="white-bg section">
+    <div class="respiro"></div>
+    <div id="home" class="main-content respiro">
+      <h2>Home</h2>
     </div>
   </section>
 </body>
