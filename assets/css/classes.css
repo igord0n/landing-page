@@ -27,7 +27,6 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
-  margin-top: -7rem;
   align-items: center;
   height: 100vh;
 }
@@ -42,7 +41,7 @@
 }
 
 .respiro {
-  height: 70px;
+  height: 85px;
 }
 
 .logo {
@@ -85,4 +84,71 @@
 .web-dev-img {
   height: 90%;
   width: 90%;
+}
+
+.who-am-i-img {
+  margin-left: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.who-am-i {
+  color: #550055;
+  background-color: #5500551c;
+  height: 60vh;
+  width: 50vw;
+  border-radius: 1rem;
+  box-shadow: -2px -2px 2px;
+}
+
+.who-am-i p {
+  line-height: 3.1rem;
+}
+
+.d-flex-jobs {
+  display: flex;
+  flex-direction: column;
+  line-height: 5rem;
+  align-items: center;
+}
+
+.d-grid-jobs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--gap);
+}
+
+#my-job > p {  
+  margin-bottom: 3rem;
+}
+
+.agro > h3 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.agro > p {
+  line-height: 3rem;
+}
+
+.pseudo-dev > h3 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.pseudo-dev > p {
+  line-height: 3rem;
+}
+
+.gamer > h3 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.gamer > p {
+  line-height: 3rem;
+}
+
+#my-job {
+  margin-top: 8rem;
 }
