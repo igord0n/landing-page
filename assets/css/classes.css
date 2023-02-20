@@ -23,12 +23,53 @@
   justify-content: space-between;
 }
 
+.d-flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-flex-menor {
+  max-width: 50rem;
+  background-color: #ffffff1c;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 1rem #ffffff5b;
+}
+
+.d-flex-menor {
+  margin-bottom: var(--gap);
+}
+
+.d-flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-column div {  
+  padding: var(--gap);  
+}
+
+
+.d-flex-column div h6 {
+  font-size: 3rem;
+  margin-bottom: .5rem;
+}
+
+.d-flex-column div p {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
 .d-grid {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .p-fixed {
@@ -38,10 +79,6 @@
   right: 0px;
   border-bottom: 1px solid #550055;
   color: #550055;
-}
-
-.respiro {
-  height: 85px;
 }
 
 .logo {
@@ -73,32 +110,26 @@
   box-shadow: 2px 2px 2px #ffffff50;
 }
 
-#intro > h2 {
-  margin-bottom: 2rem;
-}
-
 #intro > p {
   line-height: 3rem;
 }
 
 .web-dev-img {
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
 }
 
 .who-am-i-img {
-  margin-left: 2rem;
   height: 100%;
   width: 100%;
 }
 
 .who-am-i {
   color: #550055;
-  background-color: #5500551c;
-  height: 60vh;
-  width: 50vw;
-  border-radius: 1rem;
-  box-shadow: -2px -2px 2px;
+  min-height: 60vh;
+  max-height: 100vh;
+  min-width: 50vw;
+  max-width: 100vw;
 }
 
 .who-am-i p {
@@ -118,13 +149,8 @@
   gap: var(--gap);
 }
 
-#my-job > p {  
-  margin-bottom: 3rem;
-}
-
 .agro > h3 {
   font-size: 4rem;
-  margin-bottom: 3rem;
 }
 
 .agro > p {
@@ -133,7 +159,6 @@
 
 .pseudo-dev > h3 {
   font-size: 4rem;
-  margin-bottom: 3rem;
 }
 
 .pseudo-dev > p {
@@ -142,7 +167,6 @@
 
 .gamer > h3 {
   font-size: 4rem;
-  margin-bottom: 3rem;
 }
 
 .gamer > p {
@@ -150,5 +174,26 @@
 }
 
 #my-job {
-  margin-top: 8rem;
+  margin-top: var(--gap);
+}
+
+.d-flex-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  align-items: center;
+  justify-content: center;
+}
+
+.img-flex {
+  transition: all .25s ease-in-out;
+}
+
+.img-flex:hover {
+  transform: scale(1.1) rotate(1deg);
+}
+
+#typescript-svg > img, #react-svg > img {
+  height: 10rem;
+  width: 10rem;
 }

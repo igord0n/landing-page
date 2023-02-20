@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 :root {
   --primary-color: #fff;
   --secundary-color: #550055;
-  --gap: 30px;
+  --gap: 2rem;
 }
 
 * {
@@ -17,6 +17,7 @@ font-family: 'Open Sans', sans-serif;
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 8.7rem;
   font-size: 62.5%;
 }
 
@@ -61,4 +62,8 @@ h6 {
 
 a {
   text-decoration: none;
+}
+
+.z-index {
+  z-index: 1;
 }

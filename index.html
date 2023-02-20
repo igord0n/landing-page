@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <section class="white-bg p-fixed">
+  <section class="white-bg p-fixed z-index">
     <div class="main-content d-flex">
       <div>
         <h2 class="logo"><a href="#logo">LOGO</a></h2>
@@ -25,14 +25,14 @@
       <nav class="nav-menu">
         <a href="#who-am-i">Who am I?</a>
         <a href="#my-job">My job</a>
-        <a href="#">Portifolio</a>
-        <a href="#">About</a>
+        <a href="#portifolio">Portifolio</a>
+        <a href="#about">About</a>
         <a href="#">Contact</a>
       </nav>
     </div>
   </section>
 
-  <div class="respiro"></div>
+  
   <section id="logo" class="main-bg main-content section">
     <div class="d-grid">
       <div id="intro">
@@ -46,11 +46,11 @@
   </section>
 
   
-  <section  class="white-bg section main-content">
+  <section class="white-bg section main-content">
     <div id="who-am-i" class="d-grid">
       <img src="./assets/img/who-am-i.svg" alt="Who am I?" class="who-am-i-img">
       <div>
-        <div class="main-content respiro who-am-i">
+        <div class="main-content who-am-i">
           <h2>Who am I?</h2>
           <p>My name is Igor. I am a mere brazilian guy, 26, who loves technologies, since I was a child.</p>
           <p>Me and a little group of friends, when we were kids, we shared a mix of feelings while playing games on Lan
@@ -63,25 +63,68 @@
     </div>
   </section>
 
-  
-  <section  class="main-bg main-content section">
-    <div id="my-job"  class="d-flex-jobs">
+ 
+  <section class="main-bg main-content section">
+    <div id="my-job" class="d-flex-jobs">
       <h2>My jobs nowadays...</h2>
       <p>In this section I'll tell you what am doing and which are my jobs and hobbies.</p>
     </div>
     <div class="d-grid-jobs">
       <div class="agro">
         <h3>Research Agronomist</h3>
-        <p>I am an Agronomist Engineer (Research Agronomist), with M.Sc in Agronomy and Specialist in Management of Agribusiness. Nowadays, I am leading few researches with olive tree and others temperate fruits in Southern brazilian state.</p>
+        <p>I am an Agronomist Engineer (Research Agronomist), with M.Sc in Agronomy and Specialist in Management of
+          Agribusiness. Nowadays, I am leading few researches with olive tree and others temperate fruits in Southern
+          brazilian state.</p>
       </div>
       <div class="pseudo-dev">
         <h3>Pseudo web developer</h3>
-        <p>I call myself as a "pseudo web developer" because I am still learning those three technologies that were used to create a minimal website. But I know that nowadays are a lot more, like frameworks and libs, so I am just in my first steps to become a web developer who can create and support a real software or even website.</p>
+        <p>I call myself as a "pseudo web developer" because I am still learning those three technologies that were used
+          to create a minimal website. But I know that nowadays are a lot more, like frameworks and libs, so I am just
+          in my first steps to become a web developer who can create and support a real software or even website.</p>
       </div>
       <div class="gamer">
         <h3>Free time Gamer</h3>
-        <p>I love games, since my childhood, when I spent many hours front of my old computer playing games and learning a lot with those games that I used to play in the past. The most lovely game I used to play is called Silk Road Online. Fall in love with this game until now (2023).</p>
+        <p>I love games, since my childhood, when I spent many hours front of my old computer playing games and learning
+          a lot with those games that I used to play in the past. The most lovely game I used to play is called Silk
+          Road Online. Fall in love with this game until now (2023).</p>
       </div>
+    </div>
+  </section>
+
+  <section class="white-bg section main-content">
+    <div id="portifolio" class="d-flex-jobs">
+      <h2>Portifolio</h2>
+      <p>This is not a real portifolio, it's just similar a gallery to show you few images and use it to learn a bit
+        more.</p>
+    </div>
+    <div class="d-flex-img">
+      <div class="img-flex"><img src="http://source.unsplash.com/random/330x330?r1" alt=""></div>
+      <div class="img-flex"><img src="http://source.unsplash.com/random/330x330?r2" alt=""></div>
+      <div class="img-flex"><img src="http://source.unsplash.com/random/330x330?r3" alt=""></div>
+      <div class="img-flex"><img src="http://source.unsplash.com/random/330x330?r4" alt=""></div>
+      <div class="img-flex"><img src="http://source.unsplash.com/random/330x330?r5" alt=""></div>
+      <div class="img-flex"><img src="http://source.unsplash.com/random/330x330?r6" alt=""></div>
+    </div>
+  </section>
+
+  <section class="main-bg main-content section">
+    <div id="about" class="d-flex-jobs">
+      <h2>About...</h2>
+      <p>I'd like to tell you some of technologies I'll learn.</p>
+    </div>
+    <div class="d-flex-center">
+      <div class="d-flex-column d-flex-menor">
+        <div id="react-svg"><img src="./assets/img/html.svg" alt="HTML logo" ></div>
+        <div id="react-svg"><img src="./assets/img/css.svg" alt="CSS logo" ></div>
+        <div id="typescript-svg"><img src="./assets/img/typescript.svg" alt="Typescript logo" ></div>
+        <div id="react-svg"><img src="./assets/img/react.svg" alt="React logo" ></div>
+        <div id="react-svg"><img src="./assets/img/nextjs.svg" alt="NextJS logo" ></div>
+        <div id="react-svg"><img src="./assets/img/bootstrap.svg" alt="Bootstrap logo" ></div>
+        <div id="react-svg"><img src="./assets/img/git.svg" alt="Git logo" ></div>
+        <div id="react-svg"><img src="./assets/img/github.svg" alt="Github logo" ></div>
+        <div id="react-svg"><img src="./assets/img/figma.svg" alt="Figma logo" ></div>
+      </div>
+      <p>And much more...</p>      
     </div>
   </section>
 </body>
