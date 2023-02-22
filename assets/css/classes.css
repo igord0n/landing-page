@@ -16,6 +16,7 @@
 
 .section {
   min-height: 100vh;
+  min-width: 90vw;
 }
 
 .d-flex {
@@ -194,4 +195,29 @@
 #typescript-svg > img, #react-svg > img {
   height: 10rem;
   width: 10rem;
+}
+
+#contact {
+  width: 90vw;
+  height: 100vh;
+}
+
+#contact-svg {
+  margin-left: 10rem;
+  width: 80%;
+  height: 80%;
+}
+
+.div-contato {
+  width: 40vw;
+  height: 100vh;
+}
+
+.contact-img {
+  width: 60vw;
+  height: 100vh;
+}
+
+.fieldset {
+  padding: var(--gap);
 }
