@@ -133,16 +133,17 @@
   <section class="white-bg section main-content">
     <div id="contact" class="d-flex">
       <div class="div-contato">
-        <h1>Contato</h1>
-        <p>Para entrar em contato, preencha o formulário abaixo.</p>        
+        <h1>Contato</h1>        
         <form id="formulario" action="" method="get">
           <fieldset class="fieldset">
-            <legend>Contato</legend>
-            <label for="nome">Nome: <input type="text" placeholder="Digite seu nome"></label><br>            
-            <label for="sobrenome">Sobrenome: <input type="text" placeholder="Digite seu sobrenome"></label><br>            
-            <label for="email">Email: <input type="email" placeholder="Digite seu melhor email"></label><br>
-            <label for="mensagem">Digite sua mensagem: <br><textarea rows="5" cols="50" name="mensage" form="formulario"></textarea></label><br>
-            <button type="submit">Enviar</button>            
+            <legend>Formulário</legend>
+            <p>Preencha os campos para contato.</p>
+            <p class="obs">* campo obrigatório</p>
+            <label for="nome">Nome <span class="obs">*</span><input type="text" placeholder="Digite seu nome" class="input-form" required></label><br>            
+            <label for="sobrenome">Sobrenome<input type="text" placeholder="Digite seu sobrenome" class="input-form"></label><br>            
+            <label for="email">Email <span class="obs">*</span><input type="email" placeholder="Digite seu melhor email" class="input-form" required></label><br>
+            <label for="mensagem">Digite sua mensagem <span class="obs">*</span><br><textarea rows="5" cols="50" name="mensage" form="formulario" class="input-form text-area-form" placeholder="Digite aqui sua mensagem..." required></textarea></label><br>
+            <button type="submit" class="form-button">Enviar</button>            
           </fieldset>          
         </form>
       </div>
@@ -150,6 +151,13 @@
         <img src="./assets/img/contact.svg" alt="Contact SVG image" id="contact-svg">
       </div>
     </div>
+  </section>
+
+  <section class="main-bg main-content">
+    <footer class="footer">
+      <p>Projeto pertencente ao portifólio pessoal.</p>
+      <p>Desenvolvido por Igor</p>
+    </footer>
   </section>
 </body>
 
